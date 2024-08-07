@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        div.main {
+            width: 400px;
+            margin: 100px auto 20px auto;
+        }
+        body {
+            background-color:lavenderblush;
+        }
+        h1 {
+            color:purple;
+            text-align: center;
+            font-size: 20px;
+        }
+        label {
+            color:purple;
+        }
+        .center {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="register">
+            <h1>LOGIN</h1>
+            <hr>
+            <br><br>
+            <form id="login" method="post">
+                <label for="uname">Username:</label>
+                <input type="text" name="uname" id="uname" placeholder="Enter your Username">
+                <br><br>
+                <label for="pwd">Password:</label>
+                <input type="password" name="pwd" id="pwd" placeholder="Enter your Password">
+                <br><br>
+                <div class="center">
+                    <input type="submit" value="Login">
+                </div>
+                <br><br>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
