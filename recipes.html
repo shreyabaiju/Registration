@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cooking & Travel Blog</title>
+    <title>Cooking & Travel Blog - Recipes</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -68,43 +68,41 @@
 </head>
 <body>
     <header>
-        <h1>Cooking & Travel Blog</h1>
+        <h1>Cooking & Travel Blog - Recipes</h1>
     </header>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="recipes.html">Recipes</a></li>
-            <li><a href="destinations.html">Destinations</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Recipes</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
     </nav>
-<div class="toggle-container">
-        <button class="toggle-btn" onclick="toggleDarkMode()">Toggle Dark Mode</button>
-    </div>
-<script>
-        function toggleDarkMode() {
-            document.body.classList.toggle('dark-mode');
-        }
-    </script>
     <main>
         <aside>
-            <h2>Categories</h2>
+            <h2>Recipe Categories</h2>
             <ul>
-                <li><a href="recipes.html">Cooking</a></li>
-                <li><a href="destinations.html">Travel</a></li>
-                <li><a href="#">Tips & Guides</a></li>
+                <li><a href="https://www.vegrecipesofindia.com/recipes/indian-breakfast-recipes/">Breakfast</a></li>
+                <li><a href="https://www.indianhealthyrecipes.com/recipes/lunch-box/">Lunch</a></li>
+                <li><a href="https://www.taste.com.au/entertaining/galleries/indian-vegetarian-dinner-recipes/e9k6fmd0">Dinner</a></li>
+                <li><a href="https://www.allrecipes.com/recipes/79/desserts/">Desserts</a></li>
             </ul>
         </aside>
-        <section id="blog-posts">
+        <section id="recipes">
             <article>
-                <img src="recipe-thumbnail.jpg" alt="Recipe Thumbnail" width=500 height=350>
-                <h2><a href="recipes.html">Explore Delicious Recipes</a></h2>
-                <p>Find easy-to-follow recipes for every meal of the day.</p>
+                <img src="pancakes.jpg" alt="Pancakes">
+                <h2><a href="https://www.laurafuentes.com/fluffy-pancakes-recipe/">Fluffy Pancakes</a></h2>
+                <p>Learn how to make delicious fluffy pancakes in just 15 minutes.</p>
             </article>
             <article>
-                <img src="travel-thumbnail.jpg" alt="Travel Thumbnail">
-                <h2><a href="destinations.html">Discover Amazing Destinations</a></h2>
-                <p>Read about exciting travel destinations and experiences.</p>
+                <img src="pasta.jpg" alt="Pasta" width=500 height=350>
+                <h2><a href="https://www.food.com/recipe/creamy-garlic-penne-pasta-43023">Creamy Garlic Pasta</a></h2>
+                <p>A simple and creamy garlic pasta recipe that everyone will love.</p>
+            </article>
+            <article>
+                <img src="cake.jpg" alt="Cake" width=500 height=350 >
+                <h2><a href="https://www.theflavorbender.com/classic-chocolate-cake/">Classic Chocolate Cake</a></h2>
+                <p>Bake a rich and moist chocolate cake with this easy recipe.</p>
             </article>
         </section>
     </main>
